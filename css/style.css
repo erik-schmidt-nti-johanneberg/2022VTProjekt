@@ -170,3 +170,8 @@ body {
         background-size: 100% auto;
     }
 }
+
+.contactinfo {
+  padding-left: 20px;
+  padding-right: 20px;
+}
