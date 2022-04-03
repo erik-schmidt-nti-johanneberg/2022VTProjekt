@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <div class="topnav" id="navtop">
         <a href="index.html" class="active">EriSch</a>
@@ -21,8 +23,72 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
+    <div class="wrapper">
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo1.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for school</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo2.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for school</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo3.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for school</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo4.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for school</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo5.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for a birthday</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo6.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for the student union</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo7.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for the student union</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo8.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for the student union</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="image-card wrapper" onclick="showImage(this)">
+                <img src="img/my-photo9.jpg" alt="a photo" />
+                <p class="description">A photo from a photoshoot for the student union</p>
+            </div>
+        </div>
+        <div class="flex-item-image">
+            <div class="no-image-card">
+                <!-- fulhack-->
+            </div>
+        </div>
+    </div>
 
-
+    <div onclick="hideImage(this)" class="full-view" id="full-image-div">
+        <img id="full-image" src="" alt="">
+    </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>
